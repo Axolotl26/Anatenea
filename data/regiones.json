@@ -1,0 +1,66 @@
+[
+ {
+  "id": "conceptos",
+  "lapso": 1,
+  "nombre": "I · Conceptos y terminología",
+  "datos": "data/lapso1/conceptos.json",
+  "modelo": null,
+  "completo": false
+ },
+ {
+  "id": "ms",
+  "lapso": 1,
+  "nombre": "II · Miembro superior",
+  "datos": "data/lapso1/miembro-superior.json",
+  "modelo": "models/miembro-superior.glb",
+  "completo": true
+ },
+ {
+  "id": "mi",
+  "lapso": 1,
+  "nombre": "III · Miembro inferior",
+  "datos": "data/lapso1/miembro-inferior.json",
+  "modelo": "models/miembro-inferior.glb",
+  "completo": false
+ },
+ {
+  "id": "torax",
+  "lapso": 2,
+  "nombre": "IV · Tórax",
+  "datos": "data/lapso2/torax.json",
+  "modelo": "models/torax.glb",
+  "completo": false
+ },
+ {
+  "id": "abdomen",
+  "lapso": 2,
+  "nombre": "V · Abdomen, pelvis y periné",
+  "datos": "data/lapso2/abdomen.json",
+  "modelo": "models/abdomen.glb",
+  "completo": false
+ },
+ {
+  "id": "cuello",
+  "lapso": 2,
+  "nombre": "VI · Cuello",
+  "datos": "data/lapso2/cuello.json",
+  "modelo": "models/cuello.glb",
+  "completo": false
+ },
+ {
+  "id": "cabeza",
+  "lapso": 3,
+  "nombre": "VII · Cabeza",
+  "datos": "data/lapso3/cabeza.json",
+  "modelo": "models/cabeza.glb",
+  "completo": false
+ },
+ {
+  "id": "sn",
+  "lapso": 3,
+  "nombre": "VIII · Sistema nervioso",
+  "datos": "data/lapso3/sistema-nervioso.json",
+  "modelo": "models/sistema-nervioso.glb",
+  "completo": false
+ }
+]

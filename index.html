@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Anatenea · Anatomía de primer año</title>
+<link rel="stylesheet" href="css/style.css">
+<script type="importmap">
+{"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js","three/addons/":"https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"}}
+</script>
+</head>
+<body>
+<canvas id="cv"></canvas>
+<header>
+  <div class="logo">Anatenea<small>Anatomía · Primer año</small></div>
+  <div class="pill" id="tabs"><button data-v="exp" class="on">Explorar</button><button data-v="rep">Repasar <span id="due"></span></button></div>
+  <input id="q" class="pill" type="search" placeholder="Buscar estructura…" autocomplete="off">
+  <button class="pill" id="menu" aria-label="Menú">☰</button>
+</header>
+<nav id="rail" class="glass"></nav>
+<aside id="panel" class="glass"></aside>
+<section id="rep"><div class="glass" id="repc"></div></section>
+<div id="status"></div>
+<script type="module" src="js/main.js"></script>
+</body>
+</html>
