@@ -1,6 +1,109 @@
 [
-{"id":"pterion","n":"Pterion","t":"Tema 1 · Huesos del cráneo","r":"Unión de frontal, parietal, temporal y ala mayor del esfenoides; zona más fina.","p":["Por dentro: arteria meníngea media"],"c":"Fractura → hematoma epidural con intervalo lúcido.","f":"Guía de cabeza","k":[["¿Qué arteria lesiona la fractura del pterion?","La meníngea media."]]},
-{"id":"atm","n":"Articulación temporomandibular","t":"Tema 1 · Articulaciones","r":"Sinovial bicondílea con disco articular, única móvil del cráneo.","p":["Piso inferior: bisagra; piso superior: deslizamiento","Pterigoideo lateral abre la boca"],"c":"Luxación anterior al bostezar.","f":"Guía de cabeza","k":[["¿Qué músculo abre la boca?","El pterigoideo lateral."]]},
-{"id":"senos-paranasales","n":"Senos paranasales","t":"Tema 3 · Cavidades","r":"Frontal, maxilar, etmoidales y esfenoidal.","p":["Maxilar drena en meato medio, contra la gravedad"],"c":"Sinusitis maxilar puede simular dolor dental.","f":"Guía de cabeza","k":[["¿Qué desemboca en el meato inferior?","El conducto nasolagrimal."]]},
-{"id":"retroestileo","n":"Espacio retroestíleo","t":"Tema 5 · Laterofaríngea","r":"Contiene a. carótida interna, v. yugular interna y pares IX-XII.","p":["Separado del preestíleo por el ramillete de Riolano"],"c":"Una masa produce síndrome de Horner.","f":"Guía de cabeza","k":[["¿Qué pares salen por el foramen yugular?","IX, X y XI."]]}
+ {
+  "id": "pterion",
+  "n": "Pterion",
+  "t": "Tema 1 · Huesos del cráneo",
+  "r": "Unión de frontal, parietal, temporal y ala mayor del esfenoides; zona más fina.",
+  "p": [
+   "Por dentro: arteria meníngea media"
+  ],
+  "c": "Fractura → hematoma epidural con intervalo lúcido.",
+  "f": "Guía de cabeza",
+  "k": [
+   [
+    "¿Qué arteria lesiona la fractura del pterion?",
+    "La meníngea media."
+   ]
+  ]
+ },
+ {
+  "id": "atm",
+  "n": "Articulación temporomandibular",
+  "t": "Tema 1 · Articulaciones",
+  "r": "Sinovial bicondílea con disco articular, única móvil del cráneo.",
+  "p": [
+   "Piso inferior: bisagra; piso superior: deslizamiento",
+   "Pterigoideo lateral abre la boca"
+  ],
+  "c": "Luxación anterior al bostezar.",
+  "f": "Guía de cabeza",
+  "k": [
+   [
+    "¿Qué músculo abre la boca?",
+    "El pterigoideo lateral."
+   ]
+  ]
+ },
+ {
+  "id": "senos-paranasales",
+  "n": "Senos paranasales",
+  "t": "Tema 3 · Cavidades",
+  "r": "Frontal, maxilar, etmoidales y esfenoidal.",
+  "p": [
+   "Maxilar drena en meato medio, contra la gravedad"
+  ],
+  "c": "Sinusitis maxilar puede simular dolor dental.",
+  "f": "Guía de cabeza",
+  "k": [
+   [
+    "¿Qué desemboca en el meato inferior?",
+    "El conducto nasolagrimal."
+   ]
+  ]
+ },
+ {
+  "id": "retroestileo",
+  "n": "Espacio retroestíleo",
+  "t": "Tema 5 · Laterofaríngea",
+  "r": "Contiene a. carótida interna, v. yugular interna y pares IX-XII.",
+  "p": [
+   "Separado del preestíleo por el ramillete de Riolano"
+  ],
+  "c": "Una masa produce síndrome de Horner.",
+  "f": "Guía de cabeza",
+  "k": [
+   [
+    "¿Qué pares salen por el foramen yugular?",
+    "IX, X y XI."
+   ]
+  ]
+ },
+ {
+  "id": "craneo",
+  "g": "Huesos",
+  "n": "Cráneo",
+  "t": "Tema 1 · Huesos del cráneo",
+  "r": "Neurocráneo de 8 huesos que protege el encéfalo.",
+  "p": [
+   "Frontal, 2 parietales, 2 temporales, occipital, esfenoides y etmoides",
+   "Suturas coronal, sagital y lambdoidea; puntos bregma y lambda"
+  ],
+  "c": "Una fractura en la sien lesiona la arteria meníngea media.",
+  "f": "Guía de cabeza · Cabeza y Cuello (Dra. Brito)",
+  "k": [
+   [
+    "¿Cuántos huesos forman el neurocráneo?",
+    "Ocho."
+   ]
+  ]
+ },
+ {
+  "id": "mandibula",
+  "g": "Huesos",
+  "n": "Mandíbula",
+  "t": "Tema 1 · Huesos de la cara",
+  "r": "Único hueso móvil de la cara; articula en la ATM.",
+  "p": [
+   "Cóndilo, ángulo (gonion) y apófisis coronoides",
+   "Conducto del n. alveolar inferior"
+  ],
+  "c": "Luxación y fracturas del cóndilo.",
+  "f": "Guía de cabeza",
+  "k": [
+   [
+    "¿Qué articulación forma la mandíbula?",
+    "La temporomandibular."
+   ]
+  ]
+ }
 ]

@@ -2,7 +2,7 @@ import { S, save, cardKey, grade, ret, vencida } from "./srs.js";
 const $ = (q) => document.querySelector(q);
 const NOT = [["Otra vez", "#e11d48", 0], ["Difícil", "#d97706", 1], ["Bien", "#0891b2", 2], ["Fácil", "#059669", 3]];
 
-export function createUI({ viewer, regiones, E }) {
+export function createUI({ viewer, regiones, E, A, meshIds }) {
   let region = null, sel = null, verR = false, con3d = new Set(), q = "";
   const lista = (r) => [...E.values()].filter((e) => e.region === r.id);
   const dom = (e) => Math.round(100 * e.k.reduce((a, _, j) => a + ret(S.cards[cardKey(e.id, j)]), 0) / e.k.length);
@@ -20,20 +20,22 @@ export function createUI({ viewer, regiones, E }) {
     $("#rail").querySelectorAll("[data-e]").forEach((b) => b.onclick = () => { abrir(b.dataset.e); $("#rail").classList.remove("open"); });
   }
   async function irRegion(r) {
-    cerrar(); region = r; $("#status").textContent = "Cargando modelo…";
-    const info = await viewer.loadRegion(r, new Set(lista(r).map((e) => e.id))); con3d = info.con3d;
-    $("#status").textContent = { glb: "MODELO ANATÓMICO .GLB", proc: "VISTA PROCEDURAL · AÑADE .GLB EN /models PARA REALISMO", ninguno: "SIN MALLA 3D · USA LA LISTA" }[info.modo] + " · " + r.nombre.toUpperCase();
+    cerrar(); region = r; const set = new Set();
+    lista(r).forEach((e) => { set.add(e.id); (A[e.id] || []).forEach((x) => set.add(x)); });
+    viewer.setRegion(lista(r).length ? set : null);
+    $("#status").textContent = "ESQUELETO 3D · " + r.nombre.toUpperCase() + " · CLIC EN UN HUESO O ELIGE UN APARTADO";
     rail(); contar();
   }
   async function abrir(id) {
     const e = E.get(id); if (region?.id !== e.region) await irRegion(regiones.find((r) => r.id === e.region));
-    sel = id; verR = false; if (!S.seen.includes(id)) { S.seen.push(id); save(); } viewer.select(id); panel(); rail();
+    sel = id; verR = false; if (!S.seen.includes(id)) { S.seen.push(id); save(); } viewer.select(id, A[id] || []); panel(); rail();
   }
+  const vinculo = (id) => meshIds.has(id) ? " · 🦴 malla 3D propia" : (A[id] || []).length ? " · ↔ vinculado en 3D a: " + (A[id][0] === "*" ? "todo el esqueleto" : A[id].map((x) => (E.get(x)?.n || x)).join(", ")) : " · sin vínculo 3D";
   function cerrar() { sel = null; $("#panel").classList.remove("open"); viewer.reset(); }
   function panel() {
     const e = E.get(sel); if (!e) return; const j = e.k.findIndex((_, x) => vencida(S.cards[cardKey(e.id, x)])), pd = dom(e);
     $("#panel").innerHTML = `<button class="x" id="cx">✕</button><div class="kick">Lapso ${region.lapso} · ${e.t}</div><h2>${e.n}</h2>
-    <div class="bar"><i style="width:${pd}%"></i></div><div class="mu">Retención estimada: ${pd}%${con3d.has(e.id) ? "" : " · ficha sin malla 3D aún"}</div>
+    <div class="bar"><i style="width:${pd}%"></i></div><div class="mu">Retención estimada: ${pd}%${vinculo(e.id)}</div>
     <p>${e.r}</p><ul>${e.p.map((x) => `<li>${x}</li>`).join("")}</ul>
     ${e.m ? `<div class="box nem">💡 ${e.m}</div>` : ""}${e.h ? `<div class="box his">🔬 ${e.h}</div>` : ""}${e.c ? `<div class="box cli">🩺 ${e.c}</div>` : ""}
     <div class="rev"><div class="mu" style="letter-spacing:.15em">REPASO ACTIVO</div>${j < 0 ? "<p>Sin tarjetas vencidas aquí ✨</p>" :

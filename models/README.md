@@ -1,18 +1,14 @@
 # Modelos 3D (.glb)
 
-Coloca aquí un .glb por región con el nombre indicado en `data/regiones.json`
-(p. ej. `miembro-superior.glb`). Si falta, la app usa el respaldo procedural.
+1. Copia tus .glb en esta carpeta.
+2. Añade su nombre a `manifest.json` (el navegador no puede listar carpetas).
+3. Abre la app. No hay que editar el modelo.
 
-## Convención crítica
-El **nombre de cada malla** debe ser el `id` de la estructura (`humero`, `n-axilar`…).
-Sufijos de Blender como `.001` o `.L` se ignoran.
+## Cómo se conecta cada modelo (data/mapeo.json)
+- **Mallas con nombre** (p. ej. Z-Anatomy: "Humerus.L"): `patrones` traduce el nombre nativo a un id.
+- **Una sola malla fusionada** (como el esqueleto de ZBrush): se segmenta sola por geometría
+  (piezas sueltas + posición en el cuerpo) con las `reglas` de `segmentacion`.
+- Estructuras sin hueso propio (nervios, vasos, músculos, órganos) se vinculan a huesos en `data/anclajes.json`.
 
-## Fuentes recomendadas (verifica la licencia antes de publicar)
-- Z-Anatomy (atlas abierto basado en Blender, CC BY-SA) · BodyParts3D (CC BY-SA)
-
-## Optimización
-npx @gltf-transform/cli optimize entrada.glb salida.glb --compress draco --texture-compress webp
-Objetivo: < 150 000 triángulos y < 10 MB por región.
-
-## Servir
-python3 -m http.server 8080   # los módulos ES no funcionan abriendo con doble clic
+## Consola (F12)
+Cada clic imprime el nombre nativo del .glb, la pieza detectada y el id asignado.

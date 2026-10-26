@@ -1,6 +1,94 @@
 [
-{"id":"esternon","n":"Esternón","t":"Tema 1 · Pared torácica","r":"Hueso plano e impar: manubrio, cuerpo y apófisis xifoides.","p":["Ángulo de Louis: unión manubrio-cuerpo, marca el 2º cartílago costal","Su plano (T4-T5) divide el mediastino y marca la bifurcación traqueal"],"m":"Louis = 2ª costilla.","c":"Reparo para contar costillas.","f":"Guía General del Tórax","k":[["¿Qué costilla marca el ángulo de Louis?","La 2ª."]]},
-{"id":"costilla","n":"Costillas","t":"Tema 1 · Pared torácica","r":"12 pares: 7 verdaderas, 3 falsas, 2 flotantes.","p":["Surco costal: paquete VAN intercostal","Atípicas: 1ª, 2ª, 10ª, 11ª y 12ª"],"c":"Toracocentesis por el borde superior de la costilla.","f":"Guía General del Tórax","k":[["¿Costillas flotantes?","11ª y 12ª."]]},
-{"id":"diafragma","n":"Diafragma","t":"Tema 1 · Cavidad torácica","r":"Músculo en doble cúpula entre tórax y abdomen; centro frénico tendinoso.","p":["Hiato aórtico (aorta y conducto torácico), esofágico (T10, esófago y vagos) y orificio de la VCI","Nervio frénico C3-C5"],"c":"Hernia de Bochdalek (posterior) y de Morgagni (anterior).","f":"Guía Músculos del Tórax","k":[["¿Qué nervio inerva el diafragma?","El frénico (C4 principal, C3-C5)."]]},
-{"id":"mediastino","n":"Mediastino","t":"Tema 2 · Cavidad torácica","r":"Región central del tórax, dividida en superior e inferior (anterior, medio y posterior).","p":["Medio: corazón, pericardio, aorta ascendente","Posterior: esófago, aorta descendente, ácigos"],"c":"Se divide por el plano ángulo de Louis–T4/T5.","f":"Guía Músculos del Tórax","k":[["¿Qué contiene el mediastino medio?","Corazón, pericardio, aorta ascendente y tronco pulmonar."]]}
+ {
+  "id": "esternon",
+  "n": "Esternón",
+  "t": "Tema 1 · Pared torácica",
+  "r": "Hueso plano e impar: manubrio, cuerpo y apófisis xifoides.",
+  "p": [
+   "Ángulo de Louis: unión manubrio-cuerpo, marca el 2º cartílago costal",
+   "Su plano (T4-T5) divide el mediastino y marca la bifurcación traqueal"
+  ],
+  "m": "Louis = 2ª costilla.",
+  "c": "Reparo para contar costillas.",
+  "f": "Guía General del Tórax",
+  "k": [
+   [
+    "¿Qué costilla marca el ángulo de Louis?",
+    "La 2ª."
+   ]
+  ]
+ },
+ {
+  "id": "costilla",
+  "n": "Costillas",
+  "t": "Tema 1 · Pared torácica",
+  "r": "12 pares: 7 verdaderas, 3 falsas, 2 flotantes.",
+  "p": [
+   "Surco costal: paquete VAN intercostal",
+   "Atípicas: 1ª, 2ª, 10ª, 11ª y 12ª"
+  ],
+  "c": "Toracocentesis por el borde superior de la costilla.",
+  "f": "Guía General del Tórax",
+  "k": [
+   [
+    "¿Costillas flotantes?",
+    "11ª y 12ª."
+   ]
+  ]
+ },
+ {
+  "id": "diafragma",
+  "n": "Diafragma",
+  "t": "Tema 1 · Cavidad torácica",
+  "r": "Músculo en doble cúpula entre tórax y abdomen; centro frénico tendinoso.",
+  "p": [
+   "Hiato aórtico (aorta y conducto torácico), esofágico (T10, esófago y vagos) y orificio de la VCI",
+   "Nervio frénico C3-C5"
+  ],
+  "c": "Hernia de Bochdalek (posterior) y de Morgagni (anterior).",
+  "f": "Guía Músculos del Tórax",
+  "k": [
+   [
+    "¿Qué nervio inerva el diafragma?",
+    "El frénico (C4 principal, C3-C5)."
+   ]
+  ]
+ },
+ {
+  "id": "mediastino",
+  "n": "Mediastino",
+  "t": "Tema 2 · Cavidad torácica",
+  "r": "Región central del tórax, dividida en superior e inferior (anterior, medio y posterior).",
+  "p": [
+   "Medio: corazón, pericardio, aorta ascendente",
+   "Posterior: esófago, aorta descendente, ácigos"
+  ],
+  "c": "Se divide por el plano ángulo de Louis–T4/T5.",
+  "f": "Guía Músculos del Tórax",
+  "k": [
+   [
+    "¿Qué contiene el mediastino medio?",
+    "Corazón, pericardio, aorta ascendente y tronco pulmonar."
+   ]
+  ]
+ },
+ {
+  "id": "vertebras-toracicas",
+  "g": "Huesos",
+  "n": "Vértebras torácicas",
+  "t": "Tema 1 · Pared torácica",
+  "r": "12 vértebras con fositas costales para las costillas.",
+  "p": [
+   "Típicas T2-T9 con hemicarillas; atípicas T1, T10, T11 y T12",
+   "Espinosas largas e inclinadas hacia abajo"
+  ],
+  "c": "T12 es la vértebra «bisagra»: la que más se fractura.",
+  "f": "Guía Tronco y Tórax",
+  "k": [
+   [
+    "¿Qué vértebra es la «bisagra»?",
+    "T12."
+   ]
+  ]
+ }
 ]

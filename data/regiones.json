@@ -12,7 +12,7 @@
   "lapso": 1,
   "nombre": "II · Miembro superior",
   "datos": "data/lapso1/miembro-superior.json",
-  "modelo": "models/miembro-superior.glb",
+  "modelo": null,
   "completo": true
  },
  {
@@ -20,7 +20,7 @@
   "lapso": 1,
   "nombre": "III · Miembro inferior",
   "datos": "data/lapso1/miembro-inferior.json",
-  "modelo": "models/miembro-inferior.glb",
+  "modelo": null,
   "completo": false
  },
  {
@@ -28,7 +28,7 @@
   "lapso": 2,
   "nombre": "IV · Tórax",
   "datos": "data/lapso2/torax.json",
-  "modelo": "models/torax.glb",
+  "modelo": null,
   "completo": false
  },
  {
@@ -36,7 +36,7 @@
   "lapso": 2,
   "nombre": "V · Abdomen, pelvis y periné",
   "datos": "data/lapso2/abdomen.json",
-  "modelo": "models/abdomen.glb",
+  "modelo": null,
   "completo": false
  },
  {
@@ -44,7 +44,7 @@
   "lapso": 2,
   "nombre": "VI · Cuello",
   "datos": "data/lapso2/cuello.json",
-  "modelo": "models/cuello.glb",
+  "modelo": null,
   "completo": false
  },
  {
@@ -52,7 +52,7 @@
   "lapso": 3,
   "nombre": "VII · Cabeza",
   "datos": "data/lapso3/cabeza.json",
-  "modelo": "models/cabeza.glb",
+  "modelo": null,
   "completo": false
  },
  {
@@ -60,7 +60,7 @@
   "lapso": 3,
   "nombre": "VIII · Sistema nervioso",
   "datos": "data/lapso3/sistema-nervioso.json",
-  "modelo": "models/sistema-nervioso.glb",
+  "modelo": null,
   "completo": false
  }
 ]

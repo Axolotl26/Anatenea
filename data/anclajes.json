@@ -1,0 +1,233 @@
+{
+ "manguito": [
+  "escapula",
+  "humero"
+ ],
+ "n-axilar": [
+  "humero",
+  "escapula"
+ ],
+ "n-radial": [
+  "humero",
+  "radio"
+ ],
+ "n-mediano": [
+  "humero",
+  "radio",
+  "cubito",
+  "carpo"
+ ],
+ "n-cubital": [
+  "humero",
+  "cubito",
+  "carpo"
+ ],
+ "n-supraescapular": [
+  "escapula"
+ ],
+ "n-musculocutaneo": [
+  "humero"
+ ],
+ "n-toracico-largo": [
+  "costilla",
+  "escapula"
+ ],
+ "plexo-braquial": [
+  "clavicula",
+  "costilla",
+  "vertebras-cervicales"
+ ],
+ "trapecio": [
+  "craneo",
+  "vertebras-cervicales",
+  "vertebras-toracicas",
+  "clavicula",
+  "escapula"
+ ],
+ "romboides-elevador": [
+  "escapula",
+  "vertebras-cervicales",
+  "vertebras-toracicas"
+ ],
+ "deltoides": [
+  "clavicula",
+  "escapula",
+  "humero"
+ ],
+ "redondo-mayor": [
+  "escapula",
+  "humero"
+ ],
+ "serrato-anterior": [
+  "costilla",
+  "escapula"
+ ],
+ "musculos-brazo-anterior": [
+  "escapula",
+  "humero",
+  "radio"
+ ],
+ "triceps": [
+  "escapula",
+  "humero",
+  "cubito"
+ ],
+ "flexores-antebrazo": [
+  "humero",
+  "radio",
+  "cubito"
+ ],
+ "extensores-antebrazo": [
+  "humero",
+  "radio",
+  "cubito"
+ ],
+ "musculos-mano": [
+  "carpo",
+  "metacarpo-falanges"
+ ],
+ "a-subclavia": [
+  "clavicula",
+  "costilla"
+ ],
+ "a-axilar": [
+  "clavicula",
+  "escapula",
+  "humero",
+  "costilla"
+ ],
+ "a-braquial": [
+  "humero"
+ ],
+ "arterias-antebrazo-mano": [
+  "radio",
+  "cubito",
+  "carpo"
+ ],
+ "venas-miembro-superior": [
+  "clavicula",
+  "humero"
+ ],
+ "nodos-axilares": [
+  "costilla",
+  "escapula",
+  "humero",
+  "clavicula"
+ ],
+ "axila": [
+  "clavicula",
+  "escapula",
+  "humero",
+  "costilla"
+ ],
+ "espacios-axilares": [
+  "escapula",
+  "humero"
+ ],
+ "fosa-cubital": [
+  "humero",
+  "radio",
+  "cubito"
+ ],
+ "tunel-carpiano": [
+  "carpo"
+ ],
+ "tabaquera": [
+  "carpo",
+  "radio"
+ ],
+ "art-esternoclavicular": [
+  "clavicula",
+  "esternon"
+ ],
+ "art-acromioclavicular": [
+  "clavicula",
+  "escapula"
+ ],
+ "art-glenohumeral": [
+  "escapula",
+  "humero"
+ ],
+ "codo-pronosupinacion": [
+  "humero",
+  "radio",
+  "cubito"
+ ],
+ "triangulo-femoral": [
+  "coxal",
+  "femur"
+ ],
+ "n-ciatico": [
+  "coxal",
+  "sacro",
+  "femur"
+ ],
+ "n-peroneo": [
+  "peroneo",
+  "tibia"
+ ],
+ "diafragma": [
+  "costilla",
+  "vertebras-lumbares",
+  "esternon"
+ ],
+ "mediastino": [
+  "esternon",
+  "costilla",
+  "vertebras-toracicas"
+ ],
+ "conducto-inguinal": [
+  "coxal"
+ ],
+ "vaina-rectos": [
+  "costilla",
+  "esternon",
+  "coxal"
+ ],
+ "tiroides": [
+  "mandibula",
+  "esternon",
+  "vertebras-cervicales"
+ ],
+ "pterion": [
+  "craneo"
+ ],
+ "atm": [
+  "craneo",
+  "mandibula"
+ ],
+ "senos-paranasales": [
+  "craneo"
+ ],
+ "retroestileo": [
+  "craneo",
+  "mandibula",
+  "vertebras-cervicales"
+ ],
+ "meninges-lcr": [
+  "craneo",
+  "vertebras-cervicales",
+  "vertebras-toracicas",
+  "vertebras-lumbares",
+  "sacro"
+ ],
+ "circulo-willis": [
+  "craneo"
+ ],
+ "pares-craneales": [
+  "craneo"
+ ],
+ "neurona": [
+  "craneo",
+  "vertebras-cervicales"
+ ],
+ "posicion-anatomica": [
+  "*"
+ ],
+ "planos-anatomicos": [
+  "*"
+ ],
+ "osteologia-general": [
+  "*"
+ ]
+}

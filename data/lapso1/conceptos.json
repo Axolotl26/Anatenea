@@ -1,1 +1,58 @@
-[]
+[
+ {
+  "id": "posicion-anatomica",
+  "g": "Generalidades",
+  "n": "Posición anatómica y términos de dirección",
+  "t": "Tema 1 · Conceptos",
+  "r": "Posición de referencia: de pie, mirada al frente, brazos a los lados con las palmas al frente.",
+  "p": [
+   "Anterior/posterior, superior/inferior, medial/lateral",
+   "Proximal/distal y superficial/profundo"
+  ],
+  "c": "Toda descripción anatómica se hace desde esta posición.",
+  "f": "Moore (fuera de tus guías)",
+  "k": [
+   [
+    "¿Hacia dónde miran las palmas en posición anatómica?",
+    "Hacia adelante."
+   ]
+  ]
+ },
+ {
+  "id": "planos-anatomicos",
+  "g": "Generalidades",
+  "n": "Planos anatómicos",
+  "t": "Tema 1 · Conceptos",
+  "r": "Planos que cortan el cuerpo.",
+  "p": [
+   "Sagital (derecho/izquierdo), coronal o frontal (anterior/posterior)",
+   "Transversal o axial (superior/inferior)"
+  ],
+  "c": "Base para leer TAC y resonancia.",
+  "f": "Moore (fuera de tus guías)",
+  "k": [
+   [
+    "¿Qué plano divide al cuerpo en anterior y posterior?",
+    "El coronal o frontal."
+   ]
+  ]
+ },
+ {
+  "id": "osteologia-general",
+  "g": "Generalidades",
+  "n": "Esqueleto axial y apendicular",
+  "t": "Tema 2 · Osteología",
+  "r": "206 huesos: axial (cráneo, columna, esternón y costillas) y apendicular (cinturas y miembros).",
+  "p": [
+   "Tipos de hueso: largos, cortos, planos, irregulares y sesamoideos"
+  ],
+  "c": "La rótula es el sesamoideo más grande.",
+  "f": "Moore (fuera de tus guías)",
+  "k": [
+   [
+    "¿Qué compone el esqueleto axial?",
+    "Cráneo, columna vertebral, esternón y costillas."
+   ]
+  ]
+ }
+]
